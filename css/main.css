@@ -225,6 +225,30 @@ main {
   background: #c4c4c4;
   color: #333; }
 
+  .button1{
+    position:relative;
+    text-align:center;
+    margin:auto;
+    width:250px;
+    padding:40px;
+    font-size:35px;
+      color:#15f4ee;
+    font-family:poppins;
+    font-weight:400;
+    border: 5px solid #15f4ee;
+    text-transform:uppercase;
+    letter-spacing:15px;
+    cursor:pointer;
+    border-radius:100px;
+    transition:.5s;
+    
+  }
+  
+  .button1:hover{
+    box-shadow: 0 5px 60px 0 #15f4ee inset, 0 5px 60px 0 #15f4ee,
+          0 5px 60px 0 #15f4ee inset, 0 5px 60px 0 #15f4ee;
+    
+
 #main-footer {
   text-align: center;
   padding: 1rem;
